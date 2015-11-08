@@ -4,8 +4,8 @@ session_start();
 
 require_once 'vendor/autoload.php';
 
-$appId      = '701642966587497';
-$appSecret  = '63a99a4047998f8322c4978504f8dd1e';
+$appId      = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
+$appSecret  = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
 
 Facebook\FacebookSession::setDefaultApplication($appId, $appSecret);
 $facebook = new Facebook\FacebookRedirectLoginHelper('http://localhost/signInWithNokah/index.php');
